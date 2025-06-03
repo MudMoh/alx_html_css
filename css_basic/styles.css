@@ -32,3 +32,52 @@ aside {
 header, footer {
     flex-shrink: 0;
 }
+
+/* ...existing code... */
+
+/* Custom logo color */
+header .logo {
+    color: #b528d8;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+/* Custom article styles */
+article {
+    background: #fffbe7;
+    border-radius: 12px;
+    border: 1px solid #ffe082;
+    box-shadow: 0 2px 8px rgba(248, 128, 2, 0.08);
+}
+
+/* Custom heading styles inside article */
+article h1,
+article h2,
+article h3 {
+    color: #c020d5;
+}
+
+/* Custom link style in article */
+article a {
+    color: #0077cc;
+    text-decoration: underline;
+}
+
+/* Custom table style in article */
+article table {
+    width: 100%;
+    border: 1px solid #ffe082;
+    background: #fffde7;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+article th,
+article td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ffe082;
+}
+
+article tr:last-child td {
+    border-bottom: none;
+}
